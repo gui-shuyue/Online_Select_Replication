@@ -1,0 +1,243 @@
+=== LinUCB CASCADE WITH HOTPOTQA DATASET ===
+
+Train Ratio: 20.0%
+LinUCB updated on BOTH Train and Test sets.
+Batch Size: 20
+
+=== TRAIN SET RESULTS ===
+Total Train Questions: 20
+Success Rate: 0.4000
+Average Steps: 3.5000
+Average Cost per Question: $0.00006265
+Average Cost per Successful Question: $0.00001043
+Success Rate by Position:
+  Position 1: 0.3000
+  Position 2: 0.1000
+  Position 3: 0.0000
+  Position 4: 0.0000
+  Position 5: 0.0000
+
+Train Set Model Performance:
+
+arcee-ai/trinity-large-preview:free:
+  Overall: 1/12 = 0.0833
+  Average Cost: $0.00000000
+  By Position:
+    Pos 1: 0/1 = 0.0000, Avg Cost: $0.00000000
+    Pos 2: 1/5 = 0.2000, Avg Cost: $0.00000000
+    Pos 3: 0/1 = 0.0000, Avg Cost: $0.00000000
+    Pos 4: 0/5 = 0.0000, Avg Cost: $0.00000000
+
+mistralai/mistral-small-3.1-24b-instruct:
+  Overall: 6/22 = 0.2727
+  Average Cost: $0.00000545
+  By Position:
+    Pos 1: 6/16 = 0.3750, Avg Cost: $0.00000430
+    Pos 2: 0/2 = 0.0000, Avg Cost: $0.00000620
+    Pos 4: 0/2 = 0.0000, Avg Cost: $0.00000900
+    Pos 5: 0/2 = 0.0000, Avg Cost: $0.00001028
+
+microsoft/phi-4:
+  Overall: 0/9 = 0.0000
+  Average Cost: $0.00001181
+  By Position:
+    Pos 1: 0/1 = 0.0000, Avg Cost: $0.00000609
+    Pos 3: 0/5 = 0.0000, Avg Cost: $0.00001176
+    Pos 4: 0/3 = 0.0000, Avg Cost: $0.00001381
+
+meta-llama/llama-4-maverick:
+  Overall: 0/7 = 0.0000
+  Average Cost: $0.00003202
+  By Position:
+    Pos 3: 0/3 = 0.0000, Avg Cost: $0.00002844
+    Pos 4: 0/1 = 0.0000, Avg Cost: $0.00002766
+    Pos 5: 0/3 = 0.0000, Avg Cost: $0.00003705
+
+google/gemini-2.0-flash-001:
+  Overall: 0/8 = 0.0000
+  Average Cost: $0.00001754
+  By Position:
+    Pos 1: 0/1 = 0.0000, Avg Cost: $0.00000980
+    Pos 2: 0/1 = 0.0000, Avg Cost: $0.00001330
+    Pos 3: 0/2 = 0.0000, Avg Cost: $0.00001610
+    Pos 5: 0/4 = 0.0000, Avg Cost: $0.00002125
+
+deepseek/deepseek-chat:
+  Overall: 1/12 = 0.0833
+  Average Cost: $0.00005521
+  By Position:
+    Pos 1: 0/1 = 0.0000, Avg Cost: $0.00003359
+    Pos 2: 1/6 = 0.1667, Avg Cost: $0.00004643
+    Pos 3: 0/1 = 0.0000, Avg Cost: $0.00005625
+    Pos 4: 0/1 = 0.0000, Avg Cost: $0.00007032
+    Pos 5: 0/3 = 0.0000, Avg Cost: $0.00007458
+
+
+=== TEST SET RESULTS ===
+Total Test Questions: 80
+Success Rate: 0.4625
+Average Steps: 3.4000
+Average Cost per Question: $0.00005785
+Average Cost per Successful Question: $0.00002156
+Success Rate by Position:
+  Position 1: 0.3125
+  Position 2: 0.0750
+  Position 3: 0.0500
+  Position 4: 0.0250
+  Position 5: 0.0000
+
+Test Set Model Performance:
+
+arcee-ai/trinity-large-preview:free:
+  Overall: 9/52 = 0.1731
+  Average Cost: $0.00000000
+  By Position:
+    Pos 1: 0/1 = 0.0000, Avg Cost: $0.00000000
+    Pos 2: 6/22 = 0.2727, Avg Cost: $0.00000000
+    Pos 3: 2/16 = 0.1250, Avg Cost: $0.00000000
+    Pos 4: 1/8 = 0.1250, Avg Cost: $0.00000000
+    Pos 5: 0/5 = 0.0000, Avg Cost: $0.00000000
+
+mistralai/mistral-small-3.1-24b-instruct:
+  Overall: 15/68 = 0.2206
+  Average Cost: $0.00000632
+  By Position:
+    Pos 1: 13/36 = 0.3611, Avg Cost: $0.00000445
+    Pos 2: 0/8 = 0.0000, Avg Cost: $0.00000651
+    Pos 3: 1/5 = 0.2000, Avg Cost: $0.00000773
+    Pos 4: 1/13 = 0.0769, Avg Cost: $0.00000887
+    Pos 5: 0/6 = 0.0000, Avg Cost: $0.00001053
+
+microsoft/phi-4:
+  Overall: 0/33 = 0.0000
+  Average Cost: $0.00001260
+  By Position:
+    Pos 2: 0/4 = 0.0000, Avg Cost: $0.00000829
+    Pos 3: 0/6 = 0.0000, Avg Cost: $0.00001261
+    Pos 4: 0/14 = 0.0000, Avg Cost: $0.00001265
+    Pos 5: 0/9 = 0.0000, Avg Cost: $0.00001443
+
+meta-llama/llama-4-maverick:
+  Overall: 1/31 = 0.0323
+  Average Cost: $0.00002789
+  By Position:
+    Pos 1: 1/2 = 0.5000, Avg Cost: $0.00001426
+    Pos 2: 0/9 = 0.0000, Avg Cost: $0.00002445
+    Pos 3: 0/7 = 0.0000, Avg Cost: $0.00002607
+    Pos 4: 0/2 = 0.0000, Avg Cost: $0.00002861
+    Pos 5: 0/11 = 0.0000, Avg Cost: $0.00003421
+
+google/gemini-2.0-flash-001:
+  Overall: 0/28 = 0.0000
+  Average Cost: $0.00001845
+  By Position:
+    Pos 2: 0/4 = 0.0000, Avg Cost: $0.00001458
+    Pos 3: 0/9 = 0.0000, Avg Cost: $0.00001602
+    Pos 4: 0/6 = 0.0000, Avg Cost: $0.00001862
+    Pos 5: 0/9 = 0.0000, Avg Cost: $0.00002250
+
+deepseek/deepseek-chat:
+  Overall: 12/60 = 0.2000
+  Average Cost: $0.00004002
+  By Position:
+    Pos 1: 11/41 = 0.2683, Avg Cost: $0.00003169
+    Pos 2: 0/8 = 0.0000, Avg Cost: $0.00004883
+    Pos 3: 1/6 = 0.1667, Avg Cost: $0.00005921
+    Pos 4: 0/2 = 0.0000, Avg Cost: $0.00006652
+    Pos 5: 0/3 = 0.0000, Avg Cost: $0.00007432
+
+
+=== OVERALL RESULTS (TRAIN + TEST) ===
+Total Overall Questions: 100
+Success Rate: 0.4500
+Average Steps: 3.4200
+Average Cost per Question: $0.00005881
+Average Cost per Successful Question: $0.00001958
+Success Rate by Position:
+  Position 1: 0.3100
+  Position 2: 0.0800
+  Position 3: 0.0400
+  Position 4: 0.0200
+  Position 5: 0.0000
+
+Overall Model Performance:
+
+arcee-ai/trinity-large-preview:free:
+  Overall: 10/64 = 0.1562
+  Average Cost: $0.00000000
+  By Position:
+    Pos 1: 0/2 = 0.0000, Avg Cost: $0.00000000
+    Pos 2: 7/27 = 0.2593, Avg Cost: $0.00000000
+    Pos 3: 2/17 = 0.1176, Avg Cost: $0.00000000
+    Pos 4: 1/13 = 0.0769, Avg Cost: $0.00000000
+    Pos 5: 0/5 = 0.0000, Avg Cost: $0.00000000
+
+mistralai/mistral-small-3.1-24b-instruct:
+  Overall: 21/90 = 0.2333
+  Average Cost: $0.00000610
+  By Position:
+    Pos 1: 19/52 = 0.3654, Avg Cost: $0.00000441
+    Pos 2: 0/10 = 0.0000, Avg Cost: $0.00000645
+    Pos 3: 1/5 = 0.2000, Avg Cost: $0.00000773
+    Pos 4: 1/15 = 0.0667, Avg Cost: $0.00000889
+    Pos 5: 0/8 = 0.0000, Avg Cost: $0.00001047
+
+microsoft/phi-4:
+  Overall: 0/42 = 0.0000
+  Average Cost: $0.00001243
+  By Position:
+    Pos 1: 0/1 = 0.0000, Avg Cost: $0.00000609
+    Pos 2: 0/4 = 0.0000, Avg Cost: $0.00000829
+    Pos 3: 0/11 = 0.0000, Avg Cost: $0.00001222
+    Pos 4: 0/17 = 0.0000, Avg Cost: $0.00001286
+    Pos 5: 0/9 = 0.0000, Avg Cost: $0.00001443
+
+meta-llama/llama-4-maverick:
+  Overall: 1/38 = 0.0263
+  Average Cost: $0.00002865
+  By Position:
+    Pos 1: 1/2 = 0.5000, Avg Cost: $0.00001426
+    Pos 2: 0/9 = 0.0000, Avg Cost: $0.00002445
+    Pos 3: 0/10 = 0.0000, Avg Cost: $0.00002678
+    Pos 4: 0/3 = 0.0000, Avg Cost: $0.00002829
+    Pos 5: 0/14 = 0.0000, Avg Cost: $0.00003481
+
+google/gemini-2.0-flash-001:
+  Overall: 0/36 = 0.0000
+  Average Cost: $0.00001825
+  By Position:
+    Pos 1: 0/1 = 0.0000, Avg Cost: $0.00000980
+    Pos 2: 0/5 = 0.0000, Avg Cost: $0.00001432
+    Pos 3: 0/11 = 0.0000, Avg Cost: $0.00001604
+    Pos 4: 0/6 = 0.0000, Avg Cost: $0.00001862
+    Pos 5: 0/13 = 0.0000, Avg Cost: $0.00002212
+
+deepseek/deepseek-chat:
+  Overall: 13/72 = 0.1806
+  Average Cost: $0.00004255
+  By Position:
+    Pos 1: 11/42 = 0.2619, Avg Cost: $0.00003174
+    Pos 2: 1/14 = 0.0714, Avg Cost: $0.00004780
+    Pos 3: 1/7 = 0.1429, Avg Cost: $0.00005878
+    Pos 4: 0/3 = 0.0000, Avg Cost: $0.00006778
+    Pos 5: 0/6 = 0.0000, Avg Cost: $0.00007445
+
+=== BATCH PERFORMANCE ===
+Batch 0: 8/20 = 0.4000, Train/Test: 20/0, Total Cost: $0.00125305, Avg Cost: $0.00006265
+Batch 1: 11/20 = 0.5500, Train/Test: 0/20, Total Cost: $0.00113478, Avg Cost: $0.00005674
+Batch 2: 10/20 = 0.5000, Train/Test: 0/20, Total Cost: $0.00122582, Avg Cost: $0.00006129
+Batch 3: 7/20 = 0.3500, Train/Test: 0/20, Total Cost: $0.00122610, Avg Cost: $0.00006131
+Batch 4: 9/20 = 0.4500, Train/Test: 0/20, Total Cost: $0.00104105, Avg Cost: $0.00005205
+
+Total Overall Cost (All Questions): $0.00588080
+Total Train Cost: $0.00125305
+Total Test Cost: $0.00462775
+
+=== IMPORTANT NOTES ON INTERPRETATION ===
+Since the LinUCB model is updated using data from both the train and test sets,
+the test set performance metrics do not represent the performance of a fixed,
+pre-trained model on unseen data. Instead, they reflect the model's performance
+while it is still learning and adapting to the test data (online evaluation).
+This setup allows us to observe how the bandit algorithm performs and adapts
+over time across the entire dataset, comparing performance between an initial
+phase (train) and a later phase (test).

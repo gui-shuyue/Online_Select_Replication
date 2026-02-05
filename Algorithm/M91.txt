@@ -1,0 +1,165 @@
+=== LinUCB CASCADE WITH MATH500 DATASET ===
+
+Train Ratio: 20.0%
+LinUCB updated on BOTH Train and Test sets.
+Batch Size: 20
+
+=== TRAIN SET RESULTS ===
+Total Train Questions: 28
+Success Rate: 0.9643
+Average Steps: 1.3929
+Average Cost per Question: $0.00023835
+Average Cost per Successful Question: $0.00022017
+Success Rate by Position:
+  Position 1: 0.8571
+  Position 2: 0.0357
+  Position 3: 0.0357
+  Position 4: 0.0000
+  Position 5: 0.0357
+
+Train Set Model Performance:
+
+microsoft/phi-3.5-mini-128k-instruct:
+  Overall: 0/2 = 0.0000
+  Average Cost: $0.00000358
+  By Position:
+    Pos 1: 0/2 = 0.0000, Avg Cost: $0.00000358
+
+mistralai/mistral-small-3.1-24b-instruct:
+  Overall: 0/2 = 0.0000
+  Average Cost: $0.00006190
+  By Position:
+    Pos 2: 0/2 = 0.0000, Avg Cost: $0.00006190
+
+microsoft/phi-4:
+  Overall: 1/4 = 0.2500
+  Average Cost: $0.00007842
+  By Position:
+    Pos 1: 0/1 = 0.0000, Avg Cost: $0.00002870
+    Pos 2: 0/1 = 0.0000, Avg Cost: $0.00006188
+    Pos 3: 1/2 = 0.5000, Avg Cost: $0.00011155
+
+meta-llama/llama-4-maverick:
+  Overall: 0/2 = 0.0000
+  Average Cost: $0.00034229
+  By Position:
+    Pos 3: 0/1 = 0.0000, Avg Cost: $0.00020306
+    Pos 4: 0/1 = 0.0000, Avg Cost: $0.00048151
+
+google/gemini-2.0-flash-001:
+  Overall: 18/19 = 0.9474
+  Average Cost: $0.00013531
+  By Position:
+    Pos 1: 17/17 = 1.0000, Avg Cost: $0.00009058
+    Pos 4: 0/1 = 0.0000, Avg Cost: $0.00021300
+    Pos 5: 1/1 = 1.0000, Avg Cost: $0.00081800
+
+openai/gpt-4.1-nano:
+  Overall: 0/1 = 0.0000
+  Average Cost: $0.00022270
+  By Position:
+    Pos 5: 0/1 = 0.0000, Avg Cost: $0.00022270
+
+deepseek/deepseek-chat:
+  Overall: 8/9 = 0.8889
+  Average Cost: $0.00030569
+  By Position:
+    Pos 1: 7/8 = 0.8750, Avg Cost: $0.00025129
+    Pos 2: 1/1 = 1.0000, Avg Cost: $0.00074090
+
+
+=== TEST SET RESULTS ===
+Total Test Questions: 0
+Success Rate: 0.0000
+Average Steps: 0.0000
+Average Cost per Question: $0.00000000
+Average Cost per Successful Question: $0.00000000
+Success Rate by Position:
+  Position 1: 0.0000
+  Position 2: 0.0000
+  Position 3: 0.0000
+  Position 4: 0.0000
+  Position 5: 0.0000
+
+Test Set Model Performance:
+
+
+=== OVERALL RESULTS (TRAIN + TEST) ===
+Total Overall Questions: 28
+Success Rate: 0.9643
+Average Steps: 1.3929
+Average Cost per Question: $0.00023835
+Average Cost per Successful Question: $0.00022017
+Success Rate by Position:
+  Position 1: 0.8571
+  Position 2: 0.0357
+  Position 3: 0.0357
+  Position 4: 0.0000
+  Position 5: 0.0357
+
+Overall Model Performance:
+
+microsoft/phi-3.5-mini-128k-instruct:
+  Overall: 0/2 = 0.0000
+  Average Cost: $0.00000358
+  By Position:
+    Pos 1: 0/2 = 0.0000, Avg Cost: $0.00000358
+
+mistralai/mistral-small-3.1-24b-instruct:
+  Overall: 0/2 = 0.0000
+  Average Cost: $0.00006190
+  By Position:
+    Pos 2: 0/2 = 0.0000, Avg Cost: $0.00006190
+
+microsoft/phi-4:
+  Overall: 1/4 = 0.2500
+  Average Cost: $0.00007842
+  By Position:
+    Pos 1: 0/1 = 0.0000, Avg Cost: $0.00002870
+    Pos 2: 0/1 = 0.0000, Avg Cost: $0.00006188
+    Pos 3: 1/2 = 0.5000, Avg Cost: $0.00011155
+
+meta-llama/llama-4-maverick:
+  Overall: 0/2 = 0.0000
+  Average Cost: $0.00034229
+  By Position:
+    Pos 3: 0/1 = 0.0000, Avg Cost: $0.00020306
+    Pos 4: 0/1 = 0.0000, Avg Cost: $0.00048151
+
+google/gemini-2.0-flash-001:
+  Overall: 18/19 = 0.9474
+  Average Cost: $0.00013531
+  By Position:
+    Pos 1: 17/17 = 1.0000, Avg Cost: $0.00009058
+    Pos 4: 0/1 = 0.0000, Avg Cost: $0.00021300
+    Pos 5: 1/1 = 1.0000, Avg Cost: $0.00081800
+
+openai/gpt-4.1-nano:
+  Overall: 0/1 = 0.0000
+  Average Cost: $0.00022270
+  By Position:
+    Pos 5: 0/1 = 0.0000, Avg Cost: $0.00022270
+
+deepseek/deepseek-chat:
+  Overall: 8/9 = 0.8889
+  Average Cost: $0.00030569
+  By Position:
+    Pos 1: 7/8 = 0.8750, Avg Cost: $0.00025129
+    Pos 2: 1/1 = 1.0000, Avg Cost: $0.00074090
+
+=== BATCH PERFORMANCE ===
+Batch 0: 19/20 = 0.9500, Train/Test: 20/0, Total Cost: $0.00392271, Avg Cost: $0.00019614
+Batch 1: 8/8 = 1.0000, Train/Test: 8/0, Total Cost: $0.00275119, Avg Cost: $0.00034390
+
+Total Overall Cost (All Questions): $0.00667390
+Total Train Cost: $0.00667390
+Total Test Cost: $0.00000000
+
+=== IMPORTANT NOTES ON INTERPRETATION ===
+Since the LinUCB model is updated using data from both the train and test sets,
+the test set performance metrics do not represent the performance of a fixed,
+pre-trained model on unseen data. Instead, they reflect the model's performance
+while it is still learning and adapting to the test data (online evaluation).
+This setup allows us to observe how the bandit algorithm performs and adapts
+over time across the entire dataset, comparing performance between an initial
+phase (train) and a later phase (test).
